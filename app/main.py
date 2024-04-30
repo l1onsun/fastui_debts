@@ -76,7 +76,7 @@ def room(room: RoomHandle = Depends(get_room_handle)) -> list[AnyComponent]:
                                 c.FormFieldInput(
                                     name="sum",
                                     title="Sum",
-                                    placeholder="0",
+                                    initial="0",
                                     required=True,
                                 ),
                             ],
